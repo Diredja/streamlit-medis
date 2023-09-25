@@ -7,9 +7,6 @@ appp_model=pickle.load(open('appp_model.sav','rb'))
 #judul web
 st.title('DATA MINING DIABETES')
 
-st.text_input('Masukan Nama')
-st.text_input('Masukan Umur')
-
 #membagi kolom
 col1,col2=st.columns(2)
 

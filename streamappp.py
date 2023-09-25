@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # membaca load model
-appp_model=load(open('appp_model.sav','rb'))
+appp_model=pickle.load(open('appp_model.sav','rb'))
 
 #judul web
 st.title('DATA MINING DIABETES')

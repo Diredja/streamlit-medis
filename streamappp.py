@@ -21,7 +21,7 @@ with col2:
 with col1:
     BloodPressure=st.text_input('Input nilai BloodPressure')
 with col2:
-    SkinThickness=st.text_input('Input nilai SkinThickness=')
+    SkinThickness=st.text_input('Input nilai SkinThickness')
 with col1:
     Insulin=st.text_input('Input nilai Insulin')
 with col2:

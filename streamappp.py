@@ -3,6 +3,9 @@ import streamlit as st
 
 # membaca load model
 appp_model=pickle.load(open('appp_model.sav','rb'))
+# log in
+Nama=st.text_inpu('Isi Nama')
+Umur=st.text_inpu('Isi Umur',tahun)
 
 #judul web
 st.title('DATA MINING DIABETES')
